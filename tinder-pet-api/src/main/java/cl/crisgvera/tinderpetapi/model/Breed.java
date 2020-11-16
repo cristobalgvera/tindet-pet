@@ -17,7 +17,7 @@ public class Breed {
     @GeneratedValue(generator = "BREED_SEQUENCE")
     private Long id;
 
-    @Column(name = "NOMBRE", length = 30)
+    @Column(name = "NOMBRE", length = 30, unique = true)
     private String name;
 
     @OneToMany(mappedBy = "breed", cascade = CascadeType.ALL, orphanRemoval = true)

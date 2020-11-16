@@ -17,7 +17,7 @@ public class Feature {
     @GeneratedValue(generator = "FEATURE_SEQUENCE")
     private Long id;
 
-    @Column(name = "NOMBRE", length = 30)
+    @Column(name = "NOMBRE", length = 30, unique = true)
     private String name;
 
     @ManyToMany(mappedBy = "features")
