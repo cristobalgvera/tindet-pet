@@ -1,6 +1,6 @@
 App based on [ReCoders Challenge](https://github.com/cristobalgvera/tindet-pet/blob/main/extras/ReCoders%20Challenge%20-%20Full%20Stack%20Java.pdf).
 
-## Used languages and technologies
+## Languages and technologies used
 
 ### Backend
 
