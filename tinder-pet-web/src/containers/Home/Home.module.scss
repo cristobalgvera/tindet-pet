@@ -1,0 +1,13 @@
+.Button {
+  padding: 30px;
+  margin: auto;
+  width: 50%;
+  background: lightcoral;
+  color: white;
+  font-weight: bold;
+
+  &:hover {
+    background: lightpink;
+    cursor: pointer;
+  }
+}

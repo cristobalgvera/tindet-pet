@@ -1,0 +1,41 @@
+.Profile {
+  border: 1px solid lightcoral;
+  padding: 25px;
+  //display: flex;
+  width: 30%;
+  margin: 25px;
+  box-sizing: border-box;
+
+  &:hover {
+    background: lightcoral;
+    color: white;
+  }
+
+  @media (max-width: 1599px) and (min-width: 1100px){
+    width: 45%;
+  }
+
+  @media (max-width: 1099px){
+    width: 100%;
+    margin: 10px;
+  }
+}
+
+.Description {
+  width: 100%;
+  text-align: left;
+  padding: 30px;
+  box-sizing: border-box;
+}
+
+.Image {
+  width: 100%;
+
+  img {
+    width: 85%;
+
+    @media (max-width: 1099px){
+      width: 100%;
+    }
+  }
+}
